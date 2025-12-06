@@ -20,10 +20,10 @@ class Ship(simpleGE.Sprite):
              
 def main():
     game = simpleGE.Scene()
-    game.setCaption("Pygame in SPAAAAACE!")
     ship = Ship(game)
     game.sprites = [ship]
     game.start()
     
 if __name__ == "__main__":
+
     main()
